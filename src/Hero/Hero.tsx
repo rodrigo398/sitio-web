@@ -1,7 +1,7 @@
 import "./Hero.css";
 
 function Hero() {
-  return <div className="hero">Hero v2</div>;
+  return <div className="hero">Hero v3</div>;
 }
 
 export default Hero;
