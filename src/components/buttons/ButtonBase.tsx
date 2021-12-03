@@ -14,6 +14,7 @@ export interface ButtonBaseProps extends ButtonProps {
  * Tertiary (color="secondary")
  * Link (variant="text")
  */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const StyledButton = styled(({ hasMultipleWords, ...props }) => (
   <Button {...props} />
 ))(
