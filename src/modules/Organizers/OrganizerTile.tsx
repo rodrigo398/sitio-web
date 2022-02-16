@@ -57,6 +57,8 @@ const OrganizerName = styled.p`
 const OrganizerTile: React.FC<OrganizerTileProps> = ({ name, src, alt }) => {
   const currentName = `@${name.trim().replace(/\s/g, "")}`;
 
+  console.log("currentName", currentName);
+
   return (
     <OrganizerTileContainer>
       <ImageWrapper>
